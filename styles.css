@@ -16,7 +16,7 @@ body {
   }
   
   .flashcard {
-    width: 800px;
+    width: 900px;
     height: 600px;
     background-color: white;
     border: 1px solid #ccc;
@@ -91,7 +91,7 @@ body {
     transform: scale(1.1);
   }
   
-  @media (min-width:90px) {
+  @media (max-width:480px) {
     
     body {
       display: flex;
@@ -111,8 +111,8 @@ body {
     }
     
     .flashcard {
-      width: 400px;
-      height: 500px;
+      width: 350px;
+      height: 450px;
       background-color: white;
       border: 1px solid #ccc;
       border-radius: 30px;
@@ -177,7 +177,7 @@ body {
       cursor: pointer;
       transition: background-color 0.3s, transform 0.3s;
       display: block;
-      margin-top: 40px;
+      margin-top: 20px;
       font-size: 32px;
     }
     
